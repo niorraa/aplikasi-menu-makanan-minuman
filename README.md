@@ -50,3 +50,80 @@ Fitur ini membantu pengguna mengetahui estimasi biaya pesanan.
 7.	Fitur Keluar
 Program menyediakan pilihan untuk keluar dari aplikasi dengan aman ketika selesai digunakan.
 
+Instalantasi & Cara Menjalankan
+Instalasi
+1. Pastikan Python Sudah Terinstal
+   Program_utama.py ini dibuat menggunakan Python, jadi pengguna harus memiliki Python versi 3.14.
+2. Download / Clone Proyek
+   Untuk mendapatkan file program_utama.py, pengguna dapat:
+   • Clone repository GitHub
+   • git clone <link-repository-anda>
+3. Masuk ke Folder Proyek
+   Buka terminal / cmd, lalu masuk ke folder di mana file program_utama.py berada:
+   • cd nama-folder-proyek
+4. Pastikan Dependensi Standar Python Tersedia
+   Program ini hanya menggunakan library bawaan Python seperti:
+   • random
+   • time
+   • os
+5. Jalankan Program
+   Untuk menjalankan aplikasi:
+   • python program_utama.py
+   atau jika perangkat memakai python3:
+   • python3 program_utama.py
+   Program kemudian menampilkan menu interaktif yang berisi pilihan seperti:
+   • pilih makanan/minuman manual
+   • acak makanan/minuman
+   • acak combo
+   • mode campuran
+   • dan keluar (exit)
+6. Gunakan Terminal untuk Navigasi Program
+   • Program menggunakan fungsi input & tampilan terminal.
+   • Pengguna cukup mengetik angka menu sesuai pilihan.
+   Contoh:
+   1 → untuk pilih makanan manual  
+   3 → acak makanan  
+   5 → acak combo  
+   12 → keluar aplikasi
+   
+Cara Menjalankan
+Setelah proses instalasi selesai, ikuti langkah-langkah berikut untuk menjalankan aplikasi:
+1. Buka Terminal / Command Prompt
+   • Windows → buka Command Prompt
+   • macOS / Linux → buka Terminal
+2. Masuk ke Folder Tempat Program Berada
+   Gunakan perintah:
+   • cd nama-folder-proyek
+   Ganti nama-folder-proyek dengan folder yang berisi file program_utama.py.
+   Contoh:
+   • cd AplikasiPilihanMakanan
+3. Jalankan Program
+   Gunakan salah satu perintah berikut, tergantung sistem:
+   • Windows / sebagian sistem
+   python program_utama.py
+   • macOS / Linux / beberapa Windows
+   python3 program_utama.py
+   Setelah perintah dijalankan, program akan dimulai.
+4. Ikuti Menu yang Tampil di Layar
+   Program akan menampilkan menu seperti:
+   1. Pilih Makanan
+   2. Pilih Minuman
+   3. Acak Makanan
+   4. Acak Minuman
+   5. Combo Acak
+   ...
+   12. Keluar
+   Untuk menggunakan program:
+   • Ketik nomor menu yang ingin dipilih
+   • Tekan Enter
+   • Ikuti instruksi berikutnya
+   Contoh:
+   • Masukkan pilihan: 3
+   Program akan mengacak makanan dan menampilkan hasilnya.
+5. Akhiri Program
+   Untuk keluar dari aplikasi:
+   • Pilih menu: 12
+   Program akan menampilkan pesan keluar dan berhenti.
+
+   
+
