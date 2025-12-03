@@ -125,5 +125,70 @@ Setelah proses instalasi selesai, ikuti langkah-langkah berikut untuk menjalanka
    • Pilih menu: 12
    Program akan menampilkan pesan keluar dan berhenti.
 
-   
+Dokumentasi Teknis
+   flowchart
 
+          +----------------------+
+          |     Mulai Program    |
+          +----------+-----------+
+                     |
+                     v
+        +---------------------------+
+        | Tampilkan Menu Utama      |
+        | 1. Makanan                |
+        | 2. Minuman                |
+        | 3. Keluar                 |
+        +-------------+-------------+
+                      |
+                      v
+        +---------------------------+
+        |  Input pilihan pengguna   |
+        +-------------+-------------+
+                      |
+       +--------------+----------------+
+       |                               |
+       v                               v
++---------------+             +----------------+
+| Tampilkan     |             | Tampilkan      |
+| Menu Makanan  |             | Menu Minuman   |
++-------+-------+             +-------+--------+
+        |                             |
+        v                             v
++---------------+             +----------------+
+| Input pilihan |             | Input pilihan  |
+|   makanan     |             |   minuman      |
++-------+-------+             +-------+--------+
+        |                             |
+        v                             v
++-------------------------+  +-------------------------+
+| Hitung harga & tampilkan|  | Hitung harga & tampilkan|
++-------------------------+  +-------------------------+
+                     \           /
+                      \         /
+                       v       v
+                  +-----------------+
+                  | Kembali ke menu |
+                  +--------+--------+
+                           |
+                           v
+                    +-------------+
+                    |    Keluar   |
+                    +-------------+
+
+Penjelasan 
+* Program dimulai dengan menampilkan menu utama.
+* Pengguna memilih kategori (makanan/minuman).
+* Program menampilkan daftar item beserta harga.
+* Pengguna memilih item dan program menghitung total pembayaran.
+* Setelah selesai, pengguna kembali ke menu utama.
+* Program berakhir saat pengguna memilih “Keluar”.
+
+Daftar Kontributor
+|  Nama                       | NIM          | Akun GitHub                                 | Peran              |
+_________________________________________________________________________________________________________________
+| Genio Rambi                 | 250211060118 | https://github.com/niorraa                  | Project Maintainer |
+| Militia Christy Sawotong    | 250211060113 | https://github.com/christysawotong          | Kontributor        |
+| Dianelia Esther T. Nahampun | 250211060132 | https://github.com/dianelianahampun1973-art | Kontributor        |
+| Catherine Virginia Korompis | 250211060117 | https://github.com/Catherine1896            | Kontributor        |
+
+Link Repository Utama: https://github.com/niorraa/aplikasi-menu-makananminuman/branches
